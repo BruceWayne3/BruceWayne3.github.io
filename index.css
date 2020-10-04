@@ -359,6 +359,12 @@ html, body {
   }
 }
 
+@media (max-width: 485px) {
+  .skills {
+    min-height: 46rem;
+  }
+}
+
 @media (max-width: 380px) {
   .skills {
     min-height: 50rem;
