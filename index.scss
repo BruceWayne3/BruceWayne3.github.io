@@ -492,8 +492,18 @@ html,body {
         color: #37bc8c;
         font-weight: bold;
     }
+    .contacts__phone {
+        display: flex;
+        span {
+            margin-right: 10px;
+        }
+    }
     .contacts__email {
+        display: flex;
         margin-top: 30px;
+        span {
+            margin-right: 10px;
+        }
         a {
             color: white;
             text-decoration: none;
