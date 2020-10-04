@@ -593,6 +593,11 @@ html, body {
   text-decoration: none;
 }
 
+.phone a {
+  text-decoration: none;
+  color: white;
+}
+
 .copyright {
   font-size: 20px;
   margin-top: 100px;
