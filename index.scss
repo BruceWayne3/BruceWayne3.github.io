@@ -470,6 +470,11 @@ html,body {
         &:hover .github-background {
             fill: #37bc8c;
         }
+        &:hover,
+        &:hover .github-cat,
+        &:hover .github-background {
+            transition: 0.7s;
+        }
     }
 }
 .contacts__icon_facebook {
@@ -479,6 +484,7 @@ html,body {
         &:hover {
             background-color: black;
             fill: #37bc8c;
+            transition: 0.7s;
         }
     }
 }

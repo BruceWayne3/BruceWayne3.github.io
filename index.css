@@ -555,6 +555,13 @@ html, body {
   fill: #37bc8c;
 }
 
+.contacts__icon_github svg:hover,
+.contacts__icon_github svg:hover .github-cat,
+.contacts__icon_github svg:hover .github-background {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
 .contacts__icon_facebook svg {
   background-color: #343534;
   border-radius: 50%;
@@ -563,6 +570,8 @@ html, body {
 .contacts__icon_facebook svg:hover {
   background-color: black;
   fill: #37bc8c;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .contacts__communication {
