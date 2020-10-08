@@ -458,18 +458,19 @@ html, body {
 .contact-form h3 {
   font-size: 30px;
   text-transform: uppercase;
-  color: #37bc8c;
+  color: white;
 }
 
 .contact-form__input input {
   font-size: 20px;
-  background: none;
+  background: none !important;
+  outline: none;
   width: 400px;
   height: 70px;
   margin-top: 15px;
   border: 1px solid #37bc8c;
   border-radius: 12px;
-  color: #37bc8c;
+  color: white;
   padding-left: 20px;
 }
 
@@ -478,12 +479,22 @@ html, body {
   resize: none;
   border: 1px solid #37bc8c;
   border-radius: 12px;
-  color: #37bc8c;
+  color: white;
   padding: 15px 0 0 20px;
   margin-top: 15px;
-  background: none;
+  background: none !important;
+  outline: none;
   width: 400px;
   height: 300px;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+          box-shadow: 0 0 0px 1000px #000 inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 .contact-form__btn button {
