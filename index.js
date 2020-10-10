@@ -1,3 +1,8 @@
+window.addEventListener('load', () => {
+	document.querySelector('.loader').classList.add('hide')
+	document.querySelector('.wrapper').classList.remove('hide')
+})
+
 $(document).ready(function() {
     $('.header__burger').click(function(event) {
         $('.header__burger, .header__menu').toggleClass('active');
