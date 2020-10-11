@@ -217,9 +217,6 @@ html, body {
     overflow: hidden;
   }
   .header__body {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
     height: 50px;
   }
   .header__menu {
@@ -250,7 +247,6 @@ html, body {
   .header__burger {
     display: block;
     position: relative;
-    margin-right: 5px;
     width: 30px;
     height: 20px;
     z-index: 3;
