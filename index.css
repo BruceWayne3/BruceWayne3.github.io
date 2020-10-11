@@ -250,6 +250,7 @@ html, body {
   .header__burger {
     display: block;
     position: relative;
+    margin-right: 5px;
     width: 30px;
     height: 20px;
     z-index: 3;
